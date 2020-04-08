@@ -1,24 +1,8 @@
-# README
+# Base Code for Lab Assignment 4
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Take a careful look at the models and their associations.
+Then head to the `db/seed.rb` file and look at the models that are created initially.
 
-Things you may want to cover:
+Add validators to your models and try them out in the rails console.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Finally, add the necessary callbacks to the `Ticket` class. You will see that there is some starter code for a callback handler.
